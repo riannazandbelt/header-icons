@@ -6,16 +6,32 @@ html {
   box-sizing: inherit;
 }
 
-body {
+.header {
   font-family: Merriweather, serif;
   background-color: #d05c2e;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+img {
+  width: 40px;
+  align-content: space-between;
 }
 
 h1 {
   font-weight: bold;
+  font-size: 2rem;
 }
 
-nav ul {
-  text-decoration: none;
+.header ul {
   list-style-type: none;
+}
+
+.header a {
+  color: #fff;
+  font-size: 1.125rem;
+  text-decoration: none;
 }
