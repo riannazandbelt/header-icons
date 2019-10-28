@@ -18,7 +18,7 @@ html {
 
 img {
   width: 40px;
-  align-content: space-between;
+  align-content: flex-end;
 }
 
 h1 {
@@ -26,12 +26,24 @@ h1 {
   font-size: 2rem;
 }
 
-.header ul {
+nav ul {
   list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
 }
 
-.header a {
+nav a {
   color: #fff;
   font-size: 1.125rem;
   text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #a63f38;
+}
+
+nav li {
+  padding: .5em 0;
+  justify-content: space-between;
 }
