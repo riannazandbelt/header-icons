@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Merriweather, serif;
+  background-color: #d05c2e;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+nav ul {
+  text-decoration: none;
+  list-style-type: none;
+}
