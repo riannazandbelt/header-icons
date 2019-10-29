@@ -6,11 +6,16 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .header {
   font-family: Merriweather, serif;
   background-color: #d05c2e;
   color: #fff;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -25,11 +30,17 @@ h1 {
   font-size: 2rem;
 }
 
+nav {
+  justify-content: space-between;
+}
+
 nav ul {
   list-style-type: none;
-  justify-content: space-around;
-  align-items: center;
   display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
@@ -43,7 +54,6 @@ nav a:hover {
 }
 
 nav li {
-  padding: .5em 0;
-  justify-content: space-between;
-  width: 33.333%;
+  padding: .5em 1.2em;
+  border: 1px solid #a63f38;
 }
