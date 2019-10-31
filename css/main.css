@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -38,9 +39,9 @@ nav ul {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 nav a {
@@ -56,4 +57,5 @@ nav a:hover {
 nav li {
   padding: .5em 1.2em;
   border: 1px solid #a63f38;
+  width: 100%;
 }
